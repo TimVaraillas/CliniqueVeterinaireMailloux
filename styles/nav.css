@@ -1,0 +1,24 @@
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+.navbar-logo {
+    flex: 1;
+}
+.navbar-menu {
+    flex: 15;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-menu a {
+    margin: 15px;
+    font: normal 700 10px/30px "Futura", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+}
+.navbar-menu a:last-child {
+    margin-right: 0;
+}
