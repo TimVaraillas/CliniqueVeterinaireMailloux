@@ -2,7 +2,8 @@
     position: relative;
     display: flex;
     align-items: center;
-    height: 90px;
+    height: 150px;
+    margin-bottom: 190px;
 }
 .navbar-logo {
     flex: 1;

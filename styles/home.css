@@ -1,7 +1,6 @@
 .title-group {
     display: flex;
     flex-direction: column;
-    margin-top: 190px;
     width: 580px;
     position: relative;
 }
@@ -14,10 +13,19 @@
 
 .title-group p {
     color: #B0976D;
-    font: 100 14px/16px "Futura", sans-serif;
+    font: 600 14px/16px "Futura", sans-serif;
     margin: 5px 0;
     letter-spacing: 4px;
     text-transform: uppercase;
+}
+
+.title-group-right{
+    align-items: flex-end;
+    margin-left: 500px;
+    width: 600px;
+}
+.title-group-right p{
+    text-align: right;
 }
 
 .article {
@@ -46,10 +54,10 @@
 }
 
 .presentation {
-    margin-top: 100px;
-    height: 300px;
     width: 66.666%;
+    margin-top: 100px;
     margin-left: 33.332%;
+    margin-bottom: 150px;
     position: relative;
 }
 
@@ -67,4 +75,88 @@
     -webkit-column-gap: 50px;
     -moz-column-gap: 50px;
     column-gap: 50px;
+}
+
+.team {
+    margin-bottom: 150px;
+}
+.team-galery {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-gallery-item{
+    width: 366.66px;
+    height: 550px;
+}
+
+.team-gallery-item img {
+    width: 100%;
+}
+
+.team-member {
+    display: flex;
+    opacity: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -560px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(0,0,0,0.65);
+    transition-duration: 500ms;
+
+}
+
+.team-member-info {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.team-member h2 {
+    font: 400 32px/45px "Playfair", serif;
+}
+
+.team-member h3 {
+    font: 600 25px/40px "Futura", sans-serif;
+    color: #B0976D;
+    font-variant-caps: all-small-caps;
+}
+
+.team-member p {
+    font: 300 20px/35px "Futura", sans-serif;
+}
+
+.team-gallery-item:hover > .team-member{
+    opacity: 1;
+}
+
+
+.services-gallery {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-gallery-item{
+    width: 300px;
+    margin-bottom: 50px;
+}
+.services-gallery-item img {
+    width: 60px;
+}
+
+.services-gallery-item h2 {
+    font: 600 30px/35px "Futura", sans-serif;
+    margin-bottom: 15px;
+}
+.services-gallery-item p {
+    font: 300 20px/30px "Futura", sans-serif;
 }
