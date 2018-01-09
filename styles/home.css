@@ -52,6 +52,7 @@
 
 .article p span {
     color: #B0976D;
+    font-weight: 600;
 }
 
 .presentation {
@@ -69,6 +70,7 @@
     color: #B0976D;
 }
 .presentation p {
+    font: 300 20px/30px "Futura", sans-serif;
     column-count: 2;
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -140,7 +142,7 @@
 
 
 .services {
-    margin-bottom: 50px:;
+    margin-bottom: 50px;
 }
 .services-gallery {
     margin-top: 70px;
