@@ -2,6 +2,7 @@ body {
     background-color: #000000;
     font: normal 300 15px/30px "Helvetica Neue", "Arial", sans-serif;
     color: #CCCCCC;
+    scroll-behavior: smooth;
 }
 
 .container {
