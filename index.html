@@ -7,13 +7,23 @@
     <link rel="stylesheet" href="styles/font.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/hamburger.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/team.css">
+    <link rel="stylesheet" href="styles/services.css">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="container">
+<div class="container">
         <img class="bg" src="img/oneal.jpg" alt="chien">
+        <ul class="navbar-hamburger-menu">
+            <a class="smooth-scroll hamburger-link" href="#"><li>accueil</li></a>
+            <a class="smooth-scroll hamburger-link" href="#team"><li>l'équipe</li></a>
+            <a class="smooth-scroll hamburger-link" href="#services"><li>services</li></a>
+            <a class="smooth-scroll hamburger-link" href="#contact"><li>contact</li></a>
+        </ul>
         <div class="navbar">
             <div class="navbar-logo">
                 <img src="img/vet.svg" alt="logo">
@@ -24,6 +34,9 @@
                 <a class="smooth-scroll" href="#services"><li>services</li></a>
                 <a class="smooth-scroll" href="#contact"><li>contact</li></a>
             </ul>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+            </div>
         </div>
         <div class="title-group">
             <h1>Clinique Vétérinaire<br>du Mailloux.</h1>
@@ -289,6 +302,7 @@
             </div>
         </footer>
     </div>
+    <script src="js/hamburger.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/map.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBhvKRfEnTbF72MnJ6SCAyibiIRFB1Tkk&callback=initMap"></script>

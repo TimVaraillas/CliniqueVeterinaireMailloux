@@ -4,9 +4,19 @@
     align-items: center;
     height: 150px;
     margin-bottom: 190px;
+    z-index: 2;
 }
 .navbar-logo {
-    flex: 1;
+    height: 100%;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-logo img {
+    max-height: 100%;
+    max-width: 100%;
 }
 .navbar-menu {
     flex: 15;
@@ -22,4 +32,9 @@
 }
 .navbar-menu a:last-child {
     margin-right: 0;
+}
+
+
+@media (max-width: 1300px) {
+
 }

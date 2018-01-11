@@ -1,0 +1,25 @@
+.services {
+    margin-bottom: 50px;
+}
+.services-gallery {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-gallery-item{
+    width: 300px;
+    margin-bottom: 50px;
+}
+.services-gallery-item img {
+    width: 60px;
+}
+
+.services-gallery-item h2 {
+    font: 600 30px/35px "Futura", sans-serif;
+    margin-bottom: 15px;
+}
+.services-gallery-item p {
+    font: 300 20px/30px "Futura", sans-serif;
+}
