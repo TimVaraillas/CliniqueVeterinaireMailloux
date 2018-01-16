@@ -57,7 +57,6 @@
 
 .navbar-hamburger-menu {
     display: none;
-    opacity: 0;
     position: fixed;
     top: 0;
     right: 0;
@@ -71,7 +70,7 @@
     transition: all 1s;
 }
 .navbar-hamburger-menu-active{
-    opacity: 1;
+    display: flex;
 }
 
 .navbar-hamburger-menu a {

@@ -34,7 +34,18 @@
     margin-right: 0;
 }
 
-
-@media (max-width: 1300px) {
-
+@media (max-width: 900px) {
+    .navbar {
+        margin-bottom: 100px;
+    }
+}
+@media (max-width: 550px) {
+    .navbar {
+        height: 100px;
+    }
+}
+@media (max-width: 460px) {
+    .navbar {
+        margin-bottom: 50px;
+    }
 }

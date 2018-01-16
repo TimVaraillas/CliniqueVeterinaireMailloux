@@ -9,7 +9,7 @@
 }
 
 .services-gallery-item{
-    width: 300px;
+    width: 30%;
     margin-bottom: 50px;
 }
 .services-gallery-item img {
@@ -24,18 +24,27 @@
     font: 300 20px/30px "Futura", sans-serif;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 980px) {
+
     .services-gallery-item{
         width: 45%;
         margin-bottom: 50px;
     }
+}
+@media (max-width: 760px) {
+    .services-gallery {
+        margin-top: 30px;
+    }
+    .services-gallery-item{
+        width: 100%;
+        margin-bottom: 50px;
+    }
 
     .services-gallery-item h2 {
-        font: 600 38px/40px "Futura", sans-serif;
+        font: 600 30px/34px "Futura", sans-serif;
     }
 
     .services-gallery-item p {
-        font: 200 22px/34px "Helvetica Neue", "Playfair", serif;
+        font: 200 18px/30px "Futura", "Playfair", serif;
     }
-
 }

@@ -60,4 +60,36 @@ body {
         width: 70%;
         margin: 0 10%;
     }
+
+    .title-group p {
+        font: 700 16px/16px "Futura", sans-serif;
+    }
+}
+
+@media (max-width: 720px) {
+    .title-group {
+        margin-top: 0px;
+    }
+    .title-group h1 {
+        font: 300 56px/36px "Playfair", serif;
+    }
+    .title-multilines h1 {
+        font: 300 56px/60px "Playfair", serif;
+        letter-spacing: 2px;
+    }
+    .title-group p {
+        font: 700 12px/16px "Futura", sans-serif;
+    }
+}
+@media (max-width: 460px) {
+    .title-group h1 {
+        font: 300 32px/12px "Playfair", serif;
+    }
+    .title-multilines h1 {
+        font: 300 32px/36px "Playfair", serif;
+    }
+    .title-group p {
+        font: 700 14px/20px "Futura", sans-serif;
+        letter-spacing: 1px;
+    }
 }
