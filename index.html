@@ -4,46 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mailloux</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/font.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/hamburger.css">
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/team.css">
-    <link rel="stylesheet" href="styles/services.css">
-    <link rel="stylesheet" href="styles/contact.css">
-    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-<div class="container">
-        <img class="bg" src="img/oneal.jpg" alt="chien">
-        <ul class="navbar-hamburger-menu">
-            <a class="smooth-scroll hamburger-link" href="#"><li>accueil</li></a>
-            <a class="smooth-scroll hamburger-link" href="#team"><li>l'équipe</li></a>
-            <a class="smooth-scroll hamburger-link" href="#services"><li>services</li></a>
-            <a class="smooth-scroll hamburger-link" href="#contact"><li>contact</li></a>
+<div class="mlx-container">
+        <img class="mlx-bg" src="img/oneal.jpg" alt="chien">
+        <ul class="mlx-navbar-hamburger-menu">
+            <a class="mlx-smooth-scroll mlx-hamburger-link" href="#"><li>accueil</li></a>
+            <a class="mlx-smooth-scroll mlx-hamburger-link" href="#team"><li>l'équipe</li></a>
+            <a class="mlx-smooth-scroll mlx-hamburger-link" href="#services"><li>services</li></a>
+            <a class="mlx-smooth-scroll mlx-hamburger-link" href="#contact"><li>contact</li></a>
         </ul>
-        <div class="navbar">
-            <div class="navbar-logo">
+        <div class="mlx-navbar">
+            <div class="mlx-navbar-logo">
                 <img src="img/vet.svg" alt="logo">
             </div>
-            <ul class="navbar-menu">
-                <a class="smooth-scroll" href="#"><li>accueil</li></a>
-                <a class="smooth-scroll" href="#team"><li>l'équipe</li></a>
-                <a class="smooth-scroll" href="#services"><li>services</li></a>
-                <a class="smooth-scroll" href="#contact"><li>contact</li></a>
+            <ul class="mlx-navbar-menu">
+                <a class="mlx-smooth-scroll" href="#"><li>accueil</li></a>
+                <a class="mlx-smooth-scroll" href="#team"><li>l'équipe</li></a>
+                <a class="mlx-smooth-scroll" href="#services"><li>services</li></a>
+                <a class="mlx-smooth-scroll" href="#contact"><li>contact</li></a>
             </ul>
-            <div class="hamburger-menu">
-                <div class="bar"></div>
+            <div class="mlx-hamburger-menu">
+                <div class="mlx-bar"></div>
             </div>
         </div>
-        <div class="title-group title-multilines">
+        <div class="mlx-title-group title-multilines">
             <h1>Clinique<br>Vétérinaire<br>du Mailloux.</h1>
             <p>CHIENS. CHATS. NOUVEAUX ANIMAUX DE COMPAGNIE.</p>
         </div>
-        <div class="article">
+        <div class="mlx-article">
             <h3>Horaires d'ouverture</h3>
             <p>
                 <span>Du lundi au jeudi :</span> de 09:00 à 12:00 et de 13:30 à 18:30.<br>
@@ -53,7 +44,7 @@
             </p>
         </div>
 
-        <div class="presentation">
+        <div class="mlx-presentation">
             <h2>Toute l'équipe de la clinique vétérinaire du Mailloux est heureuse de vous accueillir</h2>
             <p>
                 Nous vous accueillons depuis 2002 et depuis, nous ne cessons de modernisé notre clinique
@@ -67,61 +58,61 @@
             </div>
 
         
-        <div class="services" id="services">
-            <div class="title-group">
+        <div class="mlx-services" id="services">
+            <div class="mlx-title-group">
                 <h1>Nos services</h1>
                 <p>Des soins de qualité pour le bien être de vos animaux</p>
             </div>
-            <div class="services-gallery">
-                <div class="services-gallery-item reveal-service">
+            <div class="mlx-services-gallery">
+                <div class="mlx-services-gallery-item mlx-reveal-service">
                     <img src="img/services/consultation.svg" alt="Consultations">
                     <h2>Consultations</h2>
                     <p>Consultations annuelles et vaccinations, permettant de contrôler l’état de santé de votre animal et de détecter d’éventuelles pathologies.
                         Consultations dites « générales » ou plus « spécialisées » lorsque votre animal est malade. Les consultations se font sur rendez-vous.</p>
                 </div>
-                <div class="services-gallery-item reveal-service">
+                <div class="mlx-services-gallery-item mlx-reveal-service">
                     <img src="img/services/surgery.svg" alt="Chirurgie">
                     <h2>Chirurgie</h2>
                     <p>Interventions chirurgicales de convenance: ovariectomie et castration pour l’essentiel, soins dentaires (détartrage et extraction).
                         Chirurgie spécialisée ophtalmologique, neurologique, digestive, urinaire, gynécologique, osseuse.</p>
                 </div>
-                <div class="services-gallery-item reveal-service">
+                <div class="mlx-services-gallery-item mlx-reveal-service">
                     <img src="img/services/medical-imaging.svg" alt="Imagerie">
                     <h2>Imagerie</h2>
                     <p>Radiographie numérique, Scanner doppler, Endoscopie.
                         Comme chez les humains, ces images nous permettent de détecter des traumatismes invisibles à l'oeil nu.</p>
                 </div>
-                <div class="services-gallery-item reveal-service">
+                <div class="mlx-services-gallery-item mlx-reveal-service">
                     <img src="img/services/laboratory.svg" alt="Laboratoire">
                     <h2>Laboratoire d'analyse</h2>
                     <p>Analyse biochimique et Numération Formule Sanguine, frottis sanguin, analyse d’urine, analyse dermatologique : raclage cutané, calque, recherche mycologique.
                         Ces analyses nous permettent de détecter d'éventuelles pathologies sur votre animal.</p>
                 </div>
-                <div class="services-gallery-item reveal-service">
+                <div class="mlx-services-gallery-item mlx-reveal-service">
                     <img src="img/services/hospital.svg" alt="Hospitalisation">
                     <h2>Hospitalisation</h2>
                     <p>Deux chenils d’hospitalisation sont à disposition. L’un est réservé exclusivement aux animaux suspects ou atteints d’une maladie infectieuse contagieuse ;
                         l’autre permet de prendre soins des patients malades, blessés, convalescents ou en surveillance de réveil post-opératoire.</p>
                 </div>
-                <div class="services-gallery-item reveal-service">
+                <div class="mlx-services-gallery-item mlx-reveal-service">
                     <img src="img/services/emergency.svg" alt="Urgences">
                     <h2>Urgences</h2>
                     <p>En cas d’urgence, téléphoner au service de garde qui par messagerie vous transmettra le numéro et les coordonnées du vétérinaire de garde.
                         Nous sommes de permanence en moyenne deux soirs par semaine et un week-end sur deux. Nous n’assurons pas les urgences à domicile.</p>
                 </div>
-                <div class="services-gallery-item reveal-service">
+                <div class="mlx-services-gallery-item mlx-reveal-service">
                     <img src="img/services/diet.svg" alt="Alimentation">
                     <h2>Alimentation</h2>
                     <p>La santé passe avant tout par une bonne alimentation, équilibrée et adaptée à la fois à l'âge,
                         au mode de vie et à l'état de santé de votre animal. N'hésitez pas à nous demander conseil lors de votre prochaine visite.</p>
                 </div>
-                <div class="services-gallery-item reveal-service">
+                <div class="mlx-services-gallery-item mlx-reveal-service">
                     <img src="img/services/pill.svg" alt="Hygiène">
                     <h2>Hygiène et soins</h2>
                     <p>Nous disposons d'une large gamme de produits permettant de prendre soins de vos animaux :
                         Soins dentaires, soins auriculaires, shampoings, vermifuges, anti-puces, ...</p>
                 </div>
-                <div class="services-gallery-item reveal-service">
+                <div class="mlx-services-gallery-item mlx-reveal-service">
                     <img src="img/services/education.svg" alt="Education">
                     <h2>Éducation</h2>
                     <p>Nos vétérinaire et nos auxiliaires vous donnent des conseils et des astuces pour l'éducation de vos animaux de compagnie.
@@ -130,121 +121,121 @@
             </div>
         </div>
 
-        <div id="team" class="team">
-            <div class="title-group  title-group-right">
+        <div id="team" class="mlx-team">
+            <div class="mlx-title-group  mlx-title-group-right">
                 <h1>L'équipe</h1>
                 <p>Toujours à l'écoute de vos fidèles compagnons</p>
             </div>
             
-            <div class="team-galery">
-                <div class="team-gallery-item reveal-team">
+            <div class="mlx-team-galery">
+                <div class="mlx-team-gallery-item mlx-reveal-team">
                     <img src="img/team/bernard_desaulniers.jpg" alt="Bernard Desauliners">
-                    <div class="team-member">
-                        <div class="team-member-info">
+                    <div class="mlx-team-member">
+                        <div class="mlx-team-member-info">
                             <h2>Bernard Desaulniers</h2>
                             <h3>Vétérinaire</h3>
                             <p>Dermatologie. Chirurgie orthopédique.</p>
                         </div>
                     </div>
                 </div>
-                <div class="team-gallery-item reveal-team">
+                <div class="mlx-team-gallery-item mlx-reveal-team">
                     <img src="img/team/marc_halem.jpg" alt="Marc Halem">
-                    <div class="team-member">
-                        <div class="team-member-info">
+                    <div class="mlx-team-member">
+                        <div class="mlx-team-member-info">
                             <h2>Marc Halem</h2>
                             <h3>Vétérinaire</h3>
                             <p>Echographie. Scanner. Endoscopie.</p>
                         </div>
                     </div>
                 </div>
-                <div class="team-gallery-item reveal-team">
+                <div class="mlx-team-gallery-item mlx-reveal-team">
                     <img src="img/team/laurene_saint-jean.jpg" alt="Laurène Saint-Jean">
-                    <div class="team-member">
-                        <div class="team-member-info">
+                    <div class="mlx-team-member">
+                        <div class="mlx-team-member-info">
                             <h2>Laurène Saint-Jean</h2>
                             <h3>Vétérinaire</h3>
                             <p>Ophtalmologie. Neurochirurgie.</p>
                         </div>
                     </div>
                 </div>
-                <div class="team-gallery-item reveal-team">
+                <div class="mlx-team-gallery-item mlx-reveal-team">
                     <img src="img/team/olivier_binet.jpg" alt="Olivier Binet">
-                    <div class="team-member">
-                        <div class="team-member-info">
+                    <div class="mlx-team-member">
+                        <div class="mlx-team-member-info">
                             <h2>Olivier Binet</h2>
                             <h3>Vétérinaire</h3>
                             <p>Chirurgie abdominale et thoracique. NAC.</p>
                         </div>
                     </div>
                 </div>
-                <div class="team-gallery-item reveal-team">
+                <div class="mlx-team-gallery-item mlx-reveal-team">
                     <img src="img/team/ivan_navaro.jpg" alt="Ivan Navaro">
-                    <div class="team-member">
-                        <div class="team-member-info">
+                    <div class="mlx-team-member">
+                        <div class="mlx-team-member-info">
                             <h2>Ivan Navaro</h2>
                             <h3>Vétérinaire</h3>
                             <p>Hématologie. Biochimie.</p>
                         </div>
                     </div>
                 </div>
-                <div class="team-gallery-item reveal-team">
+                <div class="mlx-team-gallery-item mlx-reveal-team">
                     <img src="img/team/kim_hong-do.jpg" alt="Kim Hong Do">
-                    <div class="team-member">
-                        <div class="team-member-info">
+                    <div class="mlx-team-member">
+                        <div class="mlx-team-member-info">
                             <h2>Kim Hong Do</h2>
                             <h3>Auxiliaire vétérinaire</h3>
                         </div>
                     </div>
                 </div>
-                <div class="team-gallery-item reveal-team">
+                <div class="mlx-team-gallery-item mlx-reveal-team">
                     <img src="img/team/mia_hasanati.jpg" alt="Mia Hasanati">
-                    <div class="team-member">
-                        <div class="team-member-info">
+                    <div class="mlx-team-member">
+                        <div class="mlx-team-member-info">
                             <h2>Mia Hasanati</h2>
                             <h3>Auxiliaire vétérinaire</h3>
                         </div>
                     </div>
                 </div>
-                <div class="team-gallery-item reveal-team">
+                <div class="mlx-team-gallery-item mlx-reveal-team">
                     <img src="img/team/audrey_chastaing.jpg" alt="Audrey Chastaing">
-                    <div class="team-member">
-                        <div class="team-member-info">
+                    <div class="mlx-team-member">
+                        <div class="mlx-team-member-info">
                             <h2>Audrey Chastaing</h2>
                             <h3>Auxiliaire vétérinaire</h3>
                         </div>
                     </div>
                 </div>
-                <div class="team-gallery-item reveal-team">
+                <div class="mlx-team-gallery-item mlx-reveal-team">
                     <img src="img/team/alma_therrien.jpg" alt="Alma Therrien">
-                    <div class="team-member">
-                        <div class="team-member-info">
+                    <div class="mlx-team-member">
+                        <div class="mlx-team-member-info">
                             <h2>Alma Therrien</h2>
                             <h3>Auxiliaire vétérinaire</h3>
                         </div>
                     </div>
                 </div>
-                <div class="team-gallery-item reveal-team">
+                <div class="mlx-team-gallery-item mlx-reveal-team">
                     <img src="img/team/sabine_denis.jpg" alt="Sabine Denis">
-                    <div class="team-member">
-                        <div class="team-member-info">
+                    <div class="mlx-team-member">
+                        <div class="mlx-team-member-info">
                             <h2>Sabine Denis</h2>
                             <h3>Auxiliaire vétérinaire</h3>
                         </div>
                     </div>
                 </div>
-                <div class="team-gallery-item reveal-team">
+                <div class="mlx-team-gallery-item mlx-reveal-team">
                     <img src="img/team/thomas_lamarre.jpg" alt="Thomas Lamarre">
-                    <div class="team-member">
-                        <div class="team-member-info">
+                    <div class="mlx-team-member">
+                        <div class="mlx-team-member-info">
                             <h2>Thomas Lamarre</h2>
                             <h3>Auxiliaire vétérinaire</h3>
                         </div>
                     </div>
                 </div>
-                <div class="team-gallery-item reveal-team">
+                <div class="mlx-team-gallery-item mlx-reveal-team">
                     <img src="img/team/jamila_hadad.jpg" alt="Jamila Hadad">
-                    <div class="team-member">
-                        <div class="team-member-info">
+                    <div class="mlx-team-member">
+                        <div class="mlx-team-member-info">
                             <h2>Jamila Hadad</h2>
                             <h3>Auxiliaire vétérinaire</h3>
                         </div>
@@ -253,51 +244,51 @@
             </div>
         </div>
 
-        <div id="contact" class="contact">
-            <div class="title-group">
+        <div id="contact" class="mlx-contact">
+            <div class="mlx-title-group">
                 <h1>Contactez-nous</h1>
                 <p>Toujours à l'écoute de vos fidèles compagnons</p>
             </div>
-            <div id="map" class="reveal-contact"></div>
-            <div class="contact-coord">
-                <div class="contact-coord-item reveal-i">
+            <div id="map" class="mlx-reveal-contact"></div>
+            <div class="mlx-contact-coord">
+                <div class="mlx-contact-coord-item mlx-reveal-i">
                     <img src="img/contact/telephone.svg" alt="Téléphone">
                     <p>05 00 01 02 03</p>
                 </div>
-                <div class="contact-coord-item reveal-i">
+                <div class="mlx-contact-coord-item mlx-reveal-i">
                     <img src="img/contact/address.svg" alt="Adresse postale">
                     <p>3 rue du Mailloux, 17220 Montroy</p>
                 </div>
-                <div class="contact-coord-item reveal-i">
+                <div class="mlx-contact-coord-item mlx-reveal-i">
                     <img src="img/contact/email.svg" alt="Adresse e-mail">
                     <p>contact@cv-mailloux.fr</p>
                 </div>
             </div>
-            <form class="contact-form">
-                <label class="reveal-contact" for="nom">Votre nom.</label>
-                <input class="reveal-contact" type="text" name="nom">
-                <label class="reveal-contact" for="email">Votre adresse e-mail.</label>
-                <input class="reveal-contact" type="text" name="email">
-                <label class="reveal-contact" for="numero">Votre numéro de téléphone.</label>
-                <input class="reveal-contact" type="text" name="numero">
-                <label class="reveal-contact" for="message">Votre message.</label>
-                <textarea class="reveal-contact" name="Message"></textarea>
-                <input class="reveal-contact" type="submit" name="envoyer" value="Envoyer">
+            <form class="mlx-contact-form">
+                <label class="mlx-reveal-contact" for="nom">Votre nom.</label>
+                <input class="mlx-reveal-contact" type="text" name="nom">
+                <label class="mlx-reveal-contact" for="email">Votre adresse e-mail.</label>
+                <input class="mlx-reveal-contact" type="text" name="email">
+                <label class="mlx-reveal-contact" for="numero">Votre numéro de téléphone.</label>
+                <input class="mlx-reveal-contact" type="text" name="numero">
+                <label class="mlx-reveal-contact" for="message">Votre message.</label>
+                <textarea class="mlx-reveal-contact" name="Message"></textarea>
+                <input class="mlx-reveal-contact" type="submit" name="envoyer" value="Envoyer">
             </form>         
 
         </div>
 
         <footer>
-            <div class="footer-container">
+            <div class="mlx-footer-container">
                 <img src="img/vet_txt.svg">
-                <div class="footer-links">
+                <div class="mlx-footer-links">
                     <ul>
-                        <a class="smooth-scroll" href="#"><li>accueil</li></a>
-                        <a class="smooth-scroll" href="#team"><li>l'équipe</li></a>
-                        <a class="smooth-scroll" href="#services"><li>services</li></a>
-                        <a class="smooth-scroll" href="#contact"><li>contact</li></a>
+                        <a class="mlx-smooth-scroll" href="#"><li>accueil</li></a>
+                        <a class="mlx-smooth-scroll" href="#team"><li>l'équipe</li></a>
+                        <a class="mlx-smooth-scroll" href="#services"><li>services</li></a>
+                        <a class="mlx-smooth-scroll" href="#contact"><li>contact</li></a>
                     </ul>
-                    <a href="#" class="footer-links-link smooth-scroll top-page">Retour en haut</a>
+                    <a href="#" class="mlx-footer-links-link mlx-smooth-scroll mlx-top-page">Retour en haut</a>
                     <img src="img/logo-tv.svg" alt="Timothée Varaillas">
                 </div>
             </div>
