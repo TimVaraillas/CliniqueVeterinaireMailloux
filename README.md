@@ -4,6 +4,9 @@ Mailloux is an HTML template for small businesses. The demo shows the site of a 
 
 The theme is easily editable. You can quickly do whatever you want with it.
 
-So if you're interested: Ready, set, go!
+If you're interested, don't hesitate to star or fork this repo!
+So, Ready, set, go! 
 
 ![Template Screenshot](./img/screenshot.jpg)
+
+
